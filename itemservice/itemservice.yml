@@ -1,0 +1,21 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/microservices?useSSL=false
+    username: root
+    password: root
+    tomcat:
+      test-while-idle: true
+      validation-query: SELECT 1
+server:
+  port: 8081
+security:
+  basic:
+    enabled: false
