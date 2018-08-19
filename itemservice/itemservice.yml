@@ -10,7 +10,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/microservices?useSSL=false
     username: root
-    password: root
+    password: "{cipher} 94a42847718d521481d837f38e3dafd99d252423bb6acf2b1e75218635194bd1"
     tomcat:
       test-while-idle: true
       validation-query: SELECT 1
