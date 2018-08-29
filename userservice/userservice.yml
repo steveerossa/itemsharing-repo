@@ -23,7 +23,7 @@ security:
 
 eureka:
   instance:
-    preferIpAddress: true
+    perferIpAddress: true
   client:
     registerWithEureka: true
     fetchRegistry: true
